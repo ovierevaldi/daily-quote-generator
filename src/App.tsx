@@ -1,4 +1,5 @@
 import './App.css'
+import Quotes from './components/core/Quotes'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         Quote Of The Day
       </h1>
 
+      <Quotes />
     </div>
   )
 }
