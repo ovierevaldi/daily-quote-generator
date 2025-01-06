@@ -7,8 +7,9 @@ function App() {
       <h1 className='text-7xl text-center font-diphylleia'>
         Quote Of The Day
       </h1>
-
-      <Quotes />
+      <div className='flex justify-center h-[500px] items-center'>
+        <Quotes />
+      </div>
     </div>
   )
 }
